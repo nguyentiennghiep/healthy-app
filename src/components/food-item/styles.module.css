@@ -1,0 +1,20 @@
+.foodItem {
+    width: 234px;
+    height: 234px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.note {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 15px;
+    min-width: 120px;
+    background: #FFCC21;
+    font-family: 'Inter', sans-serif;
+    padding-left: 8px;
+    padding: 4px 8px;
+}

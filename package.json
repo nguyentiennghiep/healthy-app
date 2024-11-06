@@ -6,12 +6,16 @@
     "dev:next": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
+    "chart.js": "^4.4.6",
     "next": "14.2.17",
     "react": "^18",
-    "react-dom": "^18"
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18",
+    "recharts": "^2.13.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.48.2",
