@@ -62,5 +62,5 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "**/*.mts"
-  ]
+, "next.config.mjs"  ]
 }

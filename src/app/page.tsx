@@ -1,5 +1,7 @@
+'use client';
 import { FoodItem } from "@/components/food-item";
 import { LineGraph } from "@/components/line-graph";
+import { withAuth } from "@/components/with-auth";
 
 const sampleData = [
   { name: 'Jan', value: 30 },
@@ -15,10 +17,14 @@ const sampleData = [
   { name: 'Nov', value: 120 },
   { name: 'Dec', value: 130 },
 ];
-export default function Home() {
+
+const Home = () => {
   return (
     <>
       <FoodItem imageUrl={'images/mockup/column-1.jpg'} note="11.06.Morning" />
       <LineGraph height={400} data={sampleData} />
-    </>);
+    </>
+  );
 }
+
+export default withAuth(Home);
